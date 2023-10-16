@@ -28,9 +28,9 @@ public class Portero extends Futbolista {
 
     public int compareTo(Object f){
         Portero j = (Portero) f; 
-        if (j.getEdad()-this.getEdad() >0)
-            return j.getEdad()-this.getEdad();
-        return this.getEdad()-j.getEdad();
+        if (j.getGolesRecibidos()-this.getGolesRecibidos() >0)
+            return j.getGolesRecibidos()-this.getGolesRecibidos();
+        return this.getGolesRecibidos()-j.getGolesRecibidos();
     }
 
 
