@@ -40,7 +40,7 @@ public class Jugador extends Futbolista{
     }
     
     public String toString(){
-        return "El futbolista  " +getNombre()+ " tiene "+getEdad()+ ", juega de " + getPosicion() + " con el dorsal " + getDorsal()+ ". Ha marcado "+ getGolesMarcados();
+        return "El futbolista " +getNombre()+ " tiene "+getEdad()+ ", y juega de " + getPosicion() + " con el dorsal " + getDorsal()+ ". Ha marcado "+ getGolesMarcados();
     }
 
 
